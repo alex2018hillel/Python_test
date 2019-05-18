@@ -1,7 +1,7 @@
 import unittest
 import configparser
-from tests.utils.login_page import Login_page
-from tests.utils.create_page import Create_mail
+from utils.login_page import Login_page
+from utils.create_page import Create_mail
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 
