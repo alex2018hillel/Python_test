@@ -3,7 +3,7 @@ pipeline {
  stages {
   stage ("python") {
      steps {
-       sh "ls-la > 1.txt"
+       sh "jenkins.yml"
      }
    }
  }
